@@ -1,0 +1,52 @@
+export const workdatas = [
+    {
+        slug: "work1",
+        status: true,
+        title: "ポートフォリオサイト",
+        tools: ["Next.js","Framer Motion","Tailwind CSS"],
+        image: "/workimages/pf-site.jpg",
+        gitUrl: "https://github.com/mh653/pf-blue-orange",
+        vercelUrl: "https://moe-pf.vercel.app/",
+        description: ["ポートフォリオサイトをNext.jsで作成しました。","CSSはほぼTailwindで記述し、アニメーションライブラリはMotionを使用しました。","簡潔に見て頂けるよう、スッキリしたレイアウトを心がけました。"]
+    },
+    {
+        slug: "work2",
+        status: true,
+        title: "ねこゲーム",
+        tools: ["TypeScript"],
+        image: "/workimages/neko-game.jpg",
+        gitUrl: "",
+        vercelUrl: "",
+        description: ["TypeScriptの練習も兼ねてゲームを作成しました。","エラーチェックや時間の制御に苦労しましたが、ロジックを考えるのが面白かったです。","※猫のイラストはCanvaAIで生成しました"]
+    },
+    {
+        slug: "work3",
+        status: true,
+        title: "Work Sample③",
+        tools: ["","","","",],
+        image: "/workimages/no-image.svg",
+        gitUrl: "",
+        vercelUrl: "",
+        description: ["","","","",],
+    },
+    {
+        slug: "work4",
+        status: true,
+        title: "Work Sample④",
+        tools: ["","","","",],
+        image: "/workimages/no-image.svg",
+        gitUrl: "",
+        vercelUrl: "",
+        description: ["","","","",],
+    },
+    {
+        slug: "work5",
+        status: true,
+        title: "Work Sample⑤",
+        tools: ["","","","",],
+        image: "/workimages/no-image.svg",
+        gitUrl: "",
+        vercelUrl: "",
+        description: ["","","","",],
+    },
+]
