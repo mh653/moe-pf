@@ -17,7 +17,7 @@ export const workdatas = [
         image: "/workimages/neko-game.jpg",
         gitUrl: "",
         vercelUrl: "",
-        description: ["TypeScriptの練習も兼ねてゲームを作成しました。","エラーチェックや時間の制御に苦労しましたが、ロジックを考えるのが面白かったです。","※猫のイラストはCanvaAIで生成しました"]
+        description: ["TypeScriptの練習でゲームを作成しました。","エラーチェックや時間の制御に苦労しましたが、ロジックを考えるのが楽しかったです。","※猫のイラストはCanvaAIで生成しました"]
     },
     {
         slug: "work3",

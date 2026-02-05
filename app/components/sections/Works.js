@@ -22,7 +22,7 @@ export default function Works() {
           </motion.span>
         </h2>
 
-        <div className="mx-auto py-10 md:py-20 2xl:py-25 max-w-[350px] md:max-w-[700px] lg:max-w-[800px] 2xl:max-w-[1000px] grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-[3vw] 2xl:gap-[1vw]">
+        <div className="mx-auto py-10 md:py-20 2xl:py-25 max-w-[350px] md:max-w-[700px] lg:max-w-[800px] 2xl:max-w-[1000px] grid grid-cols-1 md:grid-cols-2 gap-[3vw] 2xl:gap-[2vw]">
           {workdatas.map((work) => (
               <WorkCard key={work.slug} work={work}/>
           ))}
