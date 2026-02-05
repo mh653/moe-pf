@@ -8,7 +8,7 @@ export default function Like() {
   return (
     <section className="px-[3vw]  md:px-[10px] lg:pl-[260px] 2xl:pl-[300px] pb-[40px] lg:pb-[20px] 2xl:pb-[40px]">
       <div className="mx-auto relative z-10">
-        <h2 id="ilike" className="absolute top-[-30px] right-[3vw]">
+        <h2 id="like" className="absolute top-[-30px] right-[3vw]">
           <span className="font-heading text-5xl md:text-6xl 2xl:text-7xl"><TextRevealAnimation text="I Like" /></span>
           <motion.span
             initial={{opacity: 0}}
@@ -37,7 +37,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.2}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/1n.jpg" alt='' width={216} height={216}/>
+                    <Image src="/likeimages/01.jpg" alt='' width={216} height={216}/>
                   </motion.div>
                   <motion.div
                     initial={{opacity: 0}}
@@ -45,7 +45,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.4}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/2.jpg" alt='' width={288} height={216}/>
+                    <Image src="/likeimages/02.jpg" alt='' width={288} height={216}/>
                   </motion.div>
                   <motion.div
                     initial={{opacity: 0}}
@@ -53,7 +53,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.6}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/3.jpg" alt='' width={288} height={216}/>
+                    <Image src="/likeimages/03.jpg" alt='' width={288} height={216}/>
                   </motion.div>
                   <motion.div
                     initial={{opacity: 0}}
@@ -61,7 +61,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.8}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/4.jpg" alt='' width={288} height={216}/>
+                    <Image src="/likeimages/04.jpg" alt='' width={288} height={216}/>
                   </motion.div>
                 </div>
                 <div className="flex items-center flex-col md:flex-row gap-2">
@@ -71,7 +71,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.2}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/5.jpg" alt='' width={288} height={216}/>
+                    <Image src="/likeimages/05.jpg" alt='' width={288} height={216}/>
                   </motion.div>
                   <motion.div
                     initial={{opacity: 0}}
@@ -79,7 +79,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.4}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/6.jpg" alt='' width={288} height={216}/>
+                    <Image src="/likeimages/06.jpg" alt='' width={288} height={216}/>
                   </motion.div>
                   <motion.div
                     initial={{opacity: 0}}
@@ -87,7 +87,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.6}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/7.jpg" alt='' width={288} height={216}/>
+                    <Image src="/likeimages/07.jpg" alt='' width={288} height={216}/>
                   </motion.div>
                   <motion.div
                     initial={{opacity: 0}}
@@ -95,7 +95,7 @@ export default function Like() {
                     transition={{duration: 1, delay: 0.8}}
                     viewport={{ once: true }}
                   >
-                    <Image src="/likeimages/8n.jpg" alt='' width={216} height={216}/>
+                    <Image src="/likeimages/08.jpg" alt='' width={216} height={216}/>
                   </motion.div>
                 </div>
             </div>

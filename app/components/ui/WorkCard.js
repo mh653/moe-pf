@@ -41,7 +41,7 @@ const WorkCard = ({work}) => {
                     </span>
                 ))}
               </div>
-              <div className="text-xs mt-2 2xl:py-2">
+              <div className="text-xs mt-2 py-1 2xl:py-2 2xl:text-sm">
                 {work.description.map((line, i) => (
                     <p key={i} className="pt-1">
                     {line}

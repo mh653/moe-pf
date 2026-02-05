@@ -38,7 +38,7 @@ export default function Header() {
               Works
               <div className="bg-background2 h-px w-0 group-hover:w-full transition-all duration-300 absolute bottom-0 right-0"></div>
             </a></li>
-            <li><a className="inline-block relative group" href="#ilike">
+            <li><a className="inline-block relative group" href="#like">
               <div className="bg-background2 h-px w-0 group-hover:w-full transition-all duration-300"></div>
               I Like
               <div className="bg-background2 h-px w-0 group-hover:w-full transition-all duration-300 absolute bottom-0 right-0"></div>
