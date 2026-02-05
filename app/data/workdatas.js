@@ -7,7 +7,7 @@ export const workdatas = [
         image: "/workimages/pf-site.jpg",
         gitUrl: "https://github.com/mh653/moe-pf",
         vercelUrl: "https://moe-pf.vercel.app/",
-        description: ["ポートフォリオサイトをNext.jsで作成しました。","CSSはほぼTailwindで記述し、アニメーションライブラリはMotionを使用しました。","簡潔に見て頂けるよう、スッキリしたレイアウトを心がけました。"]
+        description: ["ポートフォリオサイトをNext.jsで作成しました。","CSSはTailwindで記述し、アニメーションライブラリはMotionを使用しました。","簡潔に見て頂けるよう、スッキリしたレイアウトを心がけました。"]
     },
     {
         slug: "work2",
