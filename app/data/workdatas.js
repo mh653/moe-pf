@@ -5,7 +5,7 @@ export const workdatas = [
         title: "ポートフォリオサイト",
         tools: ["Next.js","Framer Motion","Tailwind CSS"],
         image: "/workimages/pf-site.jpg",
-        gitUrl: "https://github.com/mh653/pf-blue-orange",
+        gitUrl: "https://github.com/mh653/moe-pf",
         vercelUrl: "https://moe-pf.vercel.app/",
         description: ["ポートフォリオサイトをNext.jsで作成しました。","CSSはほぼTailwindで記述し、アニメーションライブラリはMotionを使用しました。","簡潔に見て頂けるよう、スッキリしたレイアウトを心がけました。"]
     },
