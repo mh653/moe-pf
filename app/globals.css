@@ -3,7 +3,7 @@
 /* CSS変数を Tailwind の theme に直接マッピングする */
 @theme inline {
   /* フォント */
-  --font-family-body: var(--font-noto);  
+  --font-family-body: var(--font-noto);
   --font-family-heading: var(--font-bellota);
 
   /* 色 */
@@ -29,12 +29,14 @@
   font-family: var(--font-family-body);
 }
 
-/* 確認用 */
-/* @layer base {
-  .debug * {
+@layer base {
+  /* .debug * {
     @apply outline outline-1 outline-red-500;
+  } */
+  html {
+    scroll-behavior: smooth;
   }
-} */
+}
 
 /* アニメーション */
 @keyframes corners {
