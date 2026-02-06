@@ -13,11 +13,11 @@ export const workdatas = [
         slug: "work2",
         status: true,
         title: "ねこゲーム",
-        tools: ["TypeScript"],
+        tools: ["JavaScript"],
         image: "/workimages/neko-game.jpg",
-        gitUrl: "",
-        vercelUrl: "",
-        description: ["TypeScriptの練習でゲームを作成しました。","エラーチェックや時間の制御に苦労しましたが、ロジックを考えるのが楽しかったです。","※猫のイラストはCanvaAIで生成しました"]
+        gitUrl: "https://github.com/mh653/neko-game",
+        vercelUrl: "https://neko-game-azure.vercel.app/",
+        description: ["VanillaJSの練習でゲームを作成しました。","エラーチェックや時間の制御を工夫したり、ロジックを考えるのが面白かったです。","猫のイラストはCanvaAIで生成しました。","※レスポンシブ未対応"]
     },
     {
         slug: "work3",

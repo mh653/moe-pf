@@ -7,8 +7,8 @@ export default function Header() {
 
   return (
     <>
-      <header className="font-heading bg-background3 text-fc2 overflow-hidden flex justify-between pl-[3vw] pr-8 items-center z-100 fixed bottom-0 left-0 w-screen h-[50px]
-        lg:p-0 lg:w-[250px] lg:h-screen lg:flex-col lg:items-center lg:justify-start 
+      <header className="font-heading bg-background3 text-fc2 overflow-hidden flex justify-between pl-[3vw] pb-[10px] pr-8 items-center z-100 fixed bottom-0 left-0 w-screen h-[60px]
+        lg:p-0 lg:w-[250px] lg:h-screen lg:flex-col lg:items-center lg:justify-start
         2xl:w-[300px]">
         <div className="text-center relative lg:mt-15 lg:mb-20 2xl:mt-20 2xl:mb-25">
             <p className="text-sm relative z-110 lg:text-lg 2xl:text-[22px]">MOE HATANAKA</p>
@@ -53,8 +53,8 @@ export default function Header() {
       </header>
 
       <nav>
-        <ul className={`font-heading fixed bottom-[30px] z-50 bg-background4 text-fc2 w-screen h-[300px] py-4 flex flex-col items-center justify-around 
-          md:hidden 
+        <ul className={`font-heading fixed bottom-[60px] z-50 bg-background4 text-fc2 w-screen h-[300px] py-4 flex flex-col items-center justify-around
+          md:hidden
           transition-transform duration-300 ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}`}>
             <li><a className="hover:text-gray2" href="#top">Top</a></li>
             <li><a className="hover:text-gray2" href="#about">About</a></li>
