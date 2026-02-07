@@ -14,10 +14,10 @@ export default function Header() {
           <div className="text-center relative lg:mt-15 lg:mb-20 2xl:mt-20 2xl:mb-25 group">
               <p className="text-sm relative z-110 lg:text-lg 2xl:text-[22px]">MOE HATANAKA</p>
               <p className="text-xs relative z-110 mt-[-5px]">Portfolio</p>
-              {/* <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-[55%_45%_74%_26%/66%_32%_68%_34%] bg-accent3
+              {/* <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-[55%_45%_74%_26%/66%_32%_68%_34%] bg-[#fe6f4c]
               lg:w-[33px] lg:h-[33px] 2xl:w-[35px] 2xl:h-[35px]
               group-hover:scale-[115%] origin-center transition-all duration-500"></div> */}
-              <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-[55%_45%_74%_26%/66%_32%_68%_34%] bg-[#fe6f4c]
+              <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-[55%_45%_74%_26%/66%_32%_68%_34%] bg-[rgba(255,102,46,0.9)]
               lg:w-[33px] lg:h-[33px] 2xl:w-[35px] 2xl:h-[35px]
               group-hover:scale-[115%] origin-center transition-all duration-500"></div>
           </div>
