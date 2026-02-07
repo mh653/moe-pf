@@ -5,7 +5,7 @@ import TextRevealAnimation from "../animations/TextRevealAnimation";
 
 export default function Top() {
   return (
-    <section id="top" className="px-[10px] mb-[80px] lg:mb-[110px] 2xl:mb-[120px]">
+    <section id="top" className="px-[10px] mb-[130px] md:mb-[90px] lg:mb-[110px] 2xl:mb-[120px]">
       <div className="mx-auto relative flex justify-end mt-7 md:mt-8 lg:mt-10">
         <h1 className="font-heading relative text-6xl mr-[3vw] md:text-8xl lg:text-[105px] 2xl:text-9xl">
           <TextRevealAnimation text="MOE" /><br></br><TextRevealAnimation text="HATANAKA" />
