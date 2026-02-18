@@ -16,7 +16,7 @@ const WorkCard = ({work}) => {
         >
           <div className="border border-gray1 bg-background2 rounded-[15px] h-full">
             <a href={work.vercelUrl} target="blank">
-              <div className="h-[210px] mt-5 overflow-hidden 2xl:h-[250px] border border-gray1">
+              <div className="h-[210px] mt-5 overflow-hidden 2xl:h-[250px] border-t border-b border-gray1">
                 <Image
                   src={work.image}
                   alt="クリックでアプリケーションが開きます"
@@ -59,7 +59,7 @@ const WorkCard = ({work}) => {
           viewport={{ once: true }}
         >
           <div className="border border-gray1 bg-background2 rounded-[15px] h-full">
-              <div className="h-[210px] mt-5 overflow-hidden 2xl:h-[250px] border border-gray1">
+              <div className="h-[210px] mt-5 overflow-hidden 2xl:h-[250px] border-t border-b border-gray1">
                 <Image
                   src={work.image}
                   alt="クリックでアプリケーションが開きます"
