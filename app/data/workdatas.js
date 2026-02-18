@@ -17,7 +17,7 @@ export const workdatas = [
         image: "/workimages/neko-game.jpg",
         gitUrl: "https://github.com/mh653/neko-game",
         vercelUrl: "https://neko-game-azure.vercel.app/",
-        description: ["VanillaJSの練習でゲームを自作しました。","エラーチェックや時間の制御を工夫したり、ロジックを考えるのが面白かったです。","猫のイラストはCanvaAIで生成しました。"]
+        description: ["JavaScriptの練習でゲームを自作しました。","エラーチェックや時間の制御を工夫したり、ロジックを考えるのが面白かったです。","猫のイラストはCanvaAIで生成しました。"]
     },
     {
         slug: "work3",
