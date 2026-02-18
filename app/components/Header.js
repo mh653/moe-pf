@@ -17,7 +17,7 @@ export default function Header() {
               {/* <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-[55%_45%_74%_26%/66%_32%_68%_34%] bg-[#fe6f4c]
               lg:w-[33px] lg:h-[33px] 2xl:w-[35px] 2xl:h-[35px]
               group-hover:scale-[115%] origin-center transition-all duration-500"></div> */}
-              <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-[55%_45%_74%_26%/66%_32%_68%_34%] bg-[rgba(255,102,46,0.9)]
+              <div className="w-[28px] h-[28px] absolute top-[1px] lg:top-1 left-0 right-0 mx-auto rounded-full bg-[rgba(255,102,46,0.9)]
               lg:w-[33px] lg:h-[33px] 2xl:w-[35px] 2xl:h-[35px]
               group-hover:scale-[115%] origin-center transition-all duration-500"></div>
           </div>
