@@ -24,12 +24,12 @@ const WorkCard = ({work}) => {
                   height={500}
                   className="transition-transform duration-400 hover:scale-103"
                 />
-              </div>                  
+              </div>
             </a>
             <div className="p-5">
               <div className="flex justify-between">
                 <h3 className="font-bold text-sm 2xl:text-base">{work.title}</h3>
-                <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1 
+                <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
                 hover:bg-background2 hover:text-fc1 transition-colors duration-300">
                   <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
                 </div>
@@ -66,13 +66,17 @@ const WorkCard = ({work}) => {
                   width={800}
                   height={500}
                 />
-              </div>                  
+              </div>
             <div className="p-5">
               <div className="flex justify-between">
                 <h3 className="font-bold text-sm 2xl:text-base">Coming Soon...</h3>
-                <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1 opacity-0">
-                  <FaGitAlt size={22}/>
+                <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1
+                hover:bg-background2 hover:text-fc1 transition-colors duration-300">
+                  <a href={work.gitUrl} target="blank"><FaGitAlt size={22}/></a>
                 </div>
+                {/* <div className="w-[30px] h-[30px] bg-fc1 text-fc2 rounded-full mr-1 flex justify-center items-center border border-fc1 opacity-0">
+                  <FaGitAlt size={22}/>
+                </div> */}
               </div>
               <div>
                 {work.tools.map((tool, i) => (

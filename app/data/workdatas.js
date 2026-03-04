@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 export const workdatas = [
     {
         slug: "work1",
         status: true,
         title: "ポートフォリオサイト",
-        tools: ["Next.js","Framer Motion","Tailwind CSS"],
+        tools: ["Next.js","React","Framer Motion","Tailwind CSS"],
         image: "/workimages/pf-site.jpg",
         gitUrl: "https://github.com/mh653/moe-pf",
         vercelUrl: "https://moe-pf.vercel.app/",
@@ -21,13 +23,14 @@ export const workdatas = [
     },
     {
         slug: "work3",
-        status: false,
+        status: true,
         title: "Simple Closet",
-        tools: ["Next.js","Supabase","WeatherAPI"],
-        image: "/workimages/simple-closet.jpg",
-        gitUrl: "",
-        vercelUrl: "",
-        description: ["Next.jsとSupabaseを使用して、シンプルで操作性の良いクローゼットアプリを制作中です。","機能は8割ほど実装できていますが、UI実装やテストを経て3月上旬に公開予定です。"]
+        tools: ["Next.js","React","Supabase","WeatherAPI","PWA"],
+        image: "/workimages/sc.jpg",
+        gitUrl: "https://github.com/mh653/simple-closet",
+        vercelUrl: "https://simple-closet.vercel.app/",
+        description: ["Next.jsとSupabaseを使用して、シンプルで操作性の良いクローゼットアプリを制作しました。","「ファッション好きではないが、毎日ベストな服装で過ごしたい人」をターゲットとし、多機能すぎず丁度良く管理できるアプリを目指しました。"]
+        // ,<a href="https://www.canva.com/design/DAHC2bORpB0/Yv5ygY2IEOLhuFH-DwP1mA/view?utm_content=DAHC2bORpB0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hec0a81720c">資料</a>
     },
     {
         slug: "work4",
@@ -35,7 +38,7 @@ export const workdatas = [
         title: "MINI WALLET Lab",
         tools: ["Python","Flask","MySQL","XAMPP",],
         image: "/workimages/mw-lab.jpg",
-        gitUrl: "",
+        gitUrl: "https://github.com/mh653/mini-wallet-lab",
         vercelUrl: "",
         description: ["PythonとMySQLでショッピングサイトのデモを制作中です。","3月中に公開予定です。"],
     },
